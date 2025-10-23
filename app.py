@@ -104,10 +104,10 @@ st.title("🔮 El Lector de Signos: Clasificación de Esencias")
 # --- Contenido Principal ---
 try:
     # Nota: Este archivo ('OIG5.jpg') debe estar presente en el entorno de ejecución.
-    image = Image.open('OIG5.jpg')
+    image = Image.open('Bloodborne-5.webp')
     st.image(image, caption="El Glifo de Referencia", use_container_width=True)
 except FileNotFoundError:
-    st.warning("El Glifo de Referencia ('OIG5.jpg') no fue hallado. Se omitirá la previsualización.")
+    st.warning("El Glifo de Referencia ('Bloodborne-5.webp') no fue hallado. Se omitirá la previsualización.")
 except Exception as e:
     st.warning(f"Error al cargar el Glifo de Referencia: {e}")
 
